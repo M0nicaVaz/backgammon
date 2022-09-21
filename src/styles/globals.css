@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-wood bg-zinc-700 bg-cover bg-fixed;
+}
+
+::-webkit-scrollbar {
+  @apply bg-zinc-300 w-1;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-red-400 rounded;
+}
